@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gonçalo Athouguia-Portfólio</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-hover-border-grey w3-hover-text-grey">CURRÍCULO</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-grey w3-hover-text-grey" onclick="toggleNavigation()">SOBRE</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-grey w3-hover-text-grey" onclick="toggleNavigation()">RESUMO</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-grey w3-hover-text-grey" onclick="toggleNavigation()">CONTACTOS</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=4de5859cc6&attid=0.1&permmsgid=msg-a:r-8365327174732411292&th=19bd25250c5c5287&view=att&disp=safe&realattid=22AF0A95-04F7-4681-B406-C6D84ADAB941&zw" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/goncalo.athouguia.5/" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/goncalo.athouguia/" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://x.com/gugabsathouguia?s=21" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/gon%C3%A7alo-athouguia-80296b2b8/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+       
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRÍCULO</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACTOS</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUMO</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SOBRE</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"Life is 10% what happens to you and 90% how you react to it."</p>
+            <h1>Gonçalo Brito dos Santos Athouguia </h1>
+            <h2>Gestão Comercial</h2>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">SOBRE</h2>
+            <p class="w3-margin-top-2"> 
+              O meu nome é Gonçalo Athouguia e tenho 19 anos. Sou nascido e criado em Portugal e acabei o ensino secundário na área de Línguas e Humanidades.
+            </p>
+            <p class=""> 
+              Atualmente estou no primeiro ano da licenciatura de Gestão Comercial, no IPLUSO-Lusófona. Pretendo acaba-la em 2028 e dar início a uma carreira profissional na área.
+            </p>
+            <p class=""> 
+              Sou bastante comunicativo, zelo pelo bem estar das pessoas que me rodeiam e tenho um bom sentido de humor.
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUMO</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">Histórico de empregos</h3>
+              <div class="">
+                <h4>Organizador de Armazéns na Zara Home (part-time)</h4>
+                <p>September 2025 - Presente</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Operação logística de produtos e gestão de stocks e campanhas.</li>
+                  <li>Fazia também a gestão das encomendas feitas online e, por sua vez, tratava do envio.</li>
+                </ul>
+              </div>
+              
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">EDUCAÇÃO</h3>
+                <h4>Diploma do Nível secundário de Educação, E.S.Sebastião e Silva</h4>
+                <p>Julho 2025 </p>
+                <h4>Certificado de Habilitações, E.S.Sebastião e Silva</h4>
+                <p>Julho 2025 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber"> SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ol class="w3-ol" style="font-weight: 500;">
+                <li>Pensamento sistémico – capaz de compreender o impacto das decisões no conjunto da empresa.</li>
+                <li>Gestão de prioridades – sei decidir e actuar mesmo com informação incompleta.</li>
+                <li>Audição ativa estratégica – compreendo necessidades, contextos e objectivos para além do que é dito explicitamente.</li>
+              </ol>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ol class="w3-ol" style="font-weight: 500;">
+                  <li>Análise de desempenho comercial – leitura e interpretação de KPIs, funil de vendas e margens.</li>
+                  <li>Gestão e optimização de pipelines comerciais– planeamento, previsão de vendas e acompanhamento de oportunidades.</li>
+                  <li>Definição e acompanhamento de estratégias de pricing – análise de mercado, concorrência e posicionamento de valor.</li>
+                </ol>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">HOBBIES E INTERESSES</h3>
+                <ol class="w3-ul" style="font-weight: 500;">
+                  <li>Gosto de ouvir música, a ver o pôr-do-sol com bons amigos.</li>
+                  <li>Adoro motas e basicamente tudo o que tenha um motor.</li>
+                  <li>Aprecio corridas da MotoGP e Fórmula1.</li>
+                  <li>Em tempos livres videojogos são também uma paixão.</li>
+                </ol>
+            </div>        
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CONTACTOS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Gonçalo Athouguia</p>
+              <p>E-mail: goncalo.athouguia@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2026 - Gonçalo Athouguia</p>
+           <p class="w3-small">W3S.</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
